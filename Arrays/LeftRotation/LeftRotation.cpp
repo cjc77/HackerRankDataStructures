@@ -23,7 +23,6 @@ int main()
     cin >> size >> rotations;
     makeArray(size, arr);
     rotateArray(rotations, size, arr);
-//    printArray(size, arr);
     return 0;
 }
 
