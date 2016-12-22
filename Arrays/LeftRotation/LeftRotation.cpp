@@ -1,3 +1,9 @@
+/*
+Perform n left rotations on a given array and print it!
+*/
+
+
+
 #include <iostream>
 using namespace std;
 
