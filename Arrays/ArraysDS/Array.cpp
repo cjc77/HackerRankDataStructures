@@ -1,3 +1,7 @@
+/*
+Make an array of given size and print it in reverse.
+*/
+
 #include <iostream>
 using namespace std;
 

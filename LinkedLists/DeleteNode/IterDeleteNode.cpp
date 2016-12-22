@@ -1,3 +1,9 @@
+/*
+This is just a function.
+Delete specific node from a linked list.
+*/
+
+
 Node * Delete(Node * head, int position)
 {
     Node * current = head;

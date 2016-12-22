@@ -1,3 +1,8 @@
+/*
+This is just a function.
+Insert a node at the tail of a linked list.
+*/
+
 Node * Insert(Node * head, int data)
 {
     Node * current = head;
@@ -10,7 +15,7 @@ Node * Insert(Node * head, int data)
             current = current->next;
         }
         current->next = temp;
-    } 
+    }
     else {
         head = temp;
     }

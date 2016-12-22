@@ -1,3 +1,9 @@
+/*
+This is just a function.
+Print all nodes in a linked list.
+*/
+
+
 void Print(Node * head)
 {
     Node * current = head;

@@ -1,3 +1,9 @@
+/*
+This is just a function.
+Compare 2 linked lists and return 1 if they match, 0 if not.
+*/
+
+
 int CompareLists(Node * headA, Node * headB)
 {
     Node * currentA = headA;

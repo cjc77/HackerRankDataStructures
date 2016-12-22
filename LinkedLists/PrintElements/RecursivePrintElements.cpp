@@ -1,4 +1,10 @@
-void print(Node * head) 
+/*
+This is just a function.
+Print all nodes in a linked list.
+*/
+
+
+void print(Node * head)
 {
     if(!head) {
         return;

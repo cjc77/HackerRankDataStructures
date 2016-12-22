@@ -1,3 +1,9 @@
+/*
+Function and 2 helper functions.
+Merge 2 sorted linked lists, potentially of different lengths.
+*/
+
+
 void CopyHead(Node * & toReplace, Node * & update, Node * & current);
 void CopyNode(Node * & toReplace, Node * & update);
 

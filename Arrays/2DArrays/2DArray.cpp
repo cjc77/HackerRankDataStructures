@@ -1,3 +1,14 @@
+/*
+Given a 6 x 6 matrix, find hourglass with the largest sum:
+i.e.:
+110       100
+ 1   vs.   1
+102       300
+
+-9 <= input <= 9
+*/
+
+
 #include <iostream>
 using namespace std;
 

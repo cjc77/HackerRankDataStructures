@@ -1,3 +1,9 @@
+/*
+This is just a function.
+Insert a node at a specified position in a linked list.
+*/
+
+
 Node * InsertNth(Node * head, int data, int position)
 {
     Node * current = head;
