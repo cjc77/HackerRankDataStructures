@@ -24,7 +24,6 @@ int FindMergeNode(Node *headA, Node *headB)
     if(lenA > lenB) {
         sizeDiff = lenA - lenB;
         AdvanceNode(currentA, sizeDiff);
-
     }
     else if(lenB > lenA) {
         sizeDiff = lenB - lenA;
