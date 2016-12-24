@@ -23,7 +23,6 @@ int main()
     cin >> size >> rotations;
     makeArray(size, arr);
     rotateArray(rotations, size, arr);
-//    printArray(size, arr);
     return 0;
 }
 
@@ -38,7 +37,7 @@ void rotateArray(int rotations, int size, int arr[])
     int trueDistance = rotations % size;
     for(int idx = 0; idx < size; ++idx) {
         // Map original index to post-rotational index
-        if(idx < rotations) {
+        if(idx < trueDistance) {
             newIdx = size + (idx - (trueDistance));
         }
         else {
